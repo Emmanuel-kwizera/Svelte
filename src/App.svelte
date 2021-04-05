@@ -27,7 +27,7 @@
 			<p>No Players</p>
 			{:else}
 				{#each players as player}
-					<Player />
+					<Player name = {player.name} points={player.points} />
 				{/each}
 		{/if}
 	</div>
