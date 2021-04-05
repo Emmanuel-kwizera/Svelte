@@ -5,12 +5,16 @@
 
 	const addPoint = () => (points += 1);
 	const removePoint = () => (points -= 1);
+	const toggleControls = () => (showControls = !showControls)
 </script>
 
 <main>
 	<div class="container">
 		<div class="card">
-			<h1>{name}!</h1>
+			<h1>
+				{name}
+				<button class="btn" on:click={toggleControls}>+</button>
+			</h1>
 			<h3>{points}</h3>
 			{#if showControls}
 				<button class="btn" on:click={addPoint}>+1</button>
