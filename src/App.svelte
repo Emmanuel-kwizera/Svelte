@@ -1,4 +1,6 @@
 <script>
+	import Navbar from './Navbar.svelte';
+
 	let name = "John Doe";
 	let points = 100;
 	let showControls = false;
@@ -9,6 +11,7 @@
 </script>
 
 <main>
+	<Navbar />
 	<div class="container">
 		<div class="card">
 			<h1>
