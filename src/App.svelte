@@ -1,6 +1,8 @@
 <script>
 	let name = "John Doe";
 	let points = 100;
+	let showCotnrols = false;
+
 	const addPoint = () => (points += 1);
 	const removePoint = () => (points -= 1);
 </script>
