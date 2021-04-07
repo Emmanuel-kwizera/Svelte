@@ -26,7 +26,7 @@
 </script>
 <main>
 	<Navbar />
-  <AddPlayer on:addplayer={ddPlayer}/>
+  <AddPlayer on:addplayer={addPlayer}/>
 	<div class="container">
 		{#if players.length === 0}
 			<p>No Players</p>
