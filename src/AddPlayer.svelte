@@ -10,5 +10,5 @@
   bind:value={player.name}>
   <input type="number" placeholder="Player Points" 
   bind:value={player.points}>
-  <input type="submit" value="Add player">
+  <input type="submit" class="btn btn-success" value="Add player">
 </form>
