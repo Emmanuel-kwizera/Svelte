@@ -6,5 +6,7 @@
 </script>
 
 <form class="grid-3">
-  <input type="text" placeholder="Enter Name">
+  <input type="text" placeholder="Player Name" 
+  bind:value={player.name}>
+
 </form>
