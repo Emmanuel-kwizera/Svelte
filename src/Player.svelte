@@ -18,6 +18,7 @@
 				<button class="btn" on:click={toggleControls}>
 					{#if showControls}-{:else}+{/if}
 				</button>				
+				<button class="btn btn-danger btn-sm" on:click={onDelete}>x</button>				
 			</h1>
 			<h3>Points: {points}</h3>
 			{#if showControls}
