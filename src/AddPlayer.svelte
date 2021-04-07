@@ -9,6 +9,6 @@
   <input type="text" placeholder="Player Name" 
   bind:value={player.name}>
   <input type="text" placeholder="Player Points" 
-  bind:value={player.name}>
+  bind:value={player.points}>
 
 </form>
