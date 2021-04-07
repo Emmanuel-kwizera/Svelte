@@ -1,10 +1,19 @@
 <script>
   import { createEventDispatcher } from "svelte";
 
-    let player = {
+  let player = {
+    name: "",
+    points: 0
+  };
+
+  const onSubmit = e => {
+    e.preventDefault();
+    dispatch("addplayer", player);
+    player = {
       name: "",
       points: 0
     };
+  };
 </script>
 
 <form on:submit={onSubmit} class="grid-3">
