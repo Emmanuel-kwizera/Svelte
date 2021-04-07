@@ -20,6 +20,7 @@
   
   const addplayer = (e) => {
     const newPlayer = e.detail;
+    players = [...players,newPlayer];
   }
 
 </script>
