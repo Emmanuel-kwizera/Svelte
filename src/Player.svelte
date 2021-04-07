@@ -1,5 +1,6 @@
 <script>
 	import { createEventDispatcher } from "svelte";
+	const dispatch = createEventDispatcher();
 
 	export let name;
 	export let points;
@@ -8,6 +9,7 @@
 	const addPoint = () => (points += 1);
 	const removePoint = () => (points -= 1);
 	const toggleControls = () => (showControls = !showControls)
+	const onDelete = () => dispatch("removeplayer", name);
 </script>
 
 <main>
