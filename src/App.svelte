@@ -18,7 +18,7 @@
     }
   ];
   
-  const addplayer = (e) => {
+  const addPlayer = e => {
     const newPlayer = e.detail;
     players = [...players,newPlayer];
   }
@@ -26,7 +26,7 @@
 </script>
 <main>
 	<Navbar />
-  <AddPlayer on:addplayer={AddPlayer}/>
+  <AddPlayer on:addplayer={ddPlayer}/>
 	<div class="container">
 		{#if players.length === 0}
 			<p>No Players</p>

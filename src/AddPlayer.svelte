@@ -8,7 +8,7 @@
     points: 0
   };
 
-  const onSubmit = (e) => {
+  const onSubmit = e => {
     e.preventDefault();
     dispatch("addplayer", player);
     player = {
