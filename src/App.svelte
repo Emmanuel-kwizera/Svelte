@@ -17,7 +17,10 @@
       points: 34
     }
   ];
-
+  
+  const addplayer = (e) => {
+    const newPlayer = e.detail;
+  }
 
 </script>
 <AddPlayer on:addplayer={AddPlayer}/>
