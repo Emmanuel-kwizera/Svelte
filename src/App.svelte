@@ -20,7 +20,7 @@
 
 
 </script>
-<AddPlayer/>
+<AddPlayer on:addplayer={AddPlayer}/>
 <main>
 	<Navbar />
 	<div class="container">
