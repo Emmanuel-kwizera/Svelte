@@ -1,4 +1,6 @@
 <script>
+  import { createEventDispatcher } from "svelte";
+  
     let player = {
       name: "",
       points: 0
