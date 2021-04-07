@@ -1,6 +1,7 @@
 <script>
 	import Navbar from './Navbar.svelte';
 	import Player from './Player.svelte';
+  import AddPlayer from './AddPlayer.svelte'
 
 	let players = [
     {
