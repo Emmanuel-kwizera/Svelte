@@ -5,4 +5,6 @@
     };
 </script>
 
-<form class="grid-3"></form>
+<form class="grid-3">
+  <input type="text" placeholder="Enter Name">
+</form>
