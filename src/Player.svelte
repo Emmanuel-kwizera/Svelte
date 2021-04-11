@@ -8,13 +8,17 @@
 
 	const addPoint = () => (points += 1);
 	const removePoint = () => (points -= 1);
-	const toggleControls = () => (showControls = !showControls)
+	const toggleControls = () => (showControls = !showControls);
 	const onDelete = () => dispatch("removeplayer", name);
-	const upudateDb = () => {
+	const upudateDb = () => (
 		console.log("Hello world")
-	}
+	);
 	const cancelUpdating = () => {
-		
+		// player = {
+      	// 	name: "",
+      	// 	points: 0
+    	// };
+		// showControls = !showControls
 	}
 </script>
 
