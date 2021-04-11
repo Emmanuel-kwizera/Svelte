@@ -29,7 +29,7 @@
 				<input type="number" bind:value={points}>
 				<input type="text" bind:value={name}>
 				<button class="btn btn-primary">Upload</button>
-				<button class="btn btn-danger">Update</button>
+				<button class="btn btn-danger">Cancel</button>
 			{/if}
 		</div>
 	</div>
