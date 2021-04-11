@@ -28,7 +28,7 @@
 				<button class="btn btn-dark" on:click={removePoint}>-1</button>
 				<input type="number" bind:value={points}>
 				<input type="text" bind:value={name}>
-				<button class="btn btn-primary">Update</button>
+				<button class="btn btn-primary">Upload</button>
 				<button class="btn btn-danger">Update</button>
 			{/if}
 		</div>
