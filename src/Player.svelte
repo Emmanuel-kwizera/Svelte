@@ -27,7 +27,7 @@
 				<button class="btn" on:click={addPoint}>+1</button>
 				<button class="btn btn-dark" on:click={removePoint}>-1</button>
 				<input type="number" bind:value={points}>
-				<input type="text">
+				<input type="text" bind:value={name}>
 			{/if}
 		</div>
 	</div>
