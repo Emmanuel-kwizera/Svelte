@@ -3,6 +3,7 @@
 	import Player from './Player.svelte';
   import AddPlayer from './AddPlayer.svelte';
 
+  let showForm = false;
 	let players = [
     {
       name: "John Doe",
@@ -25,10 +26,16 @@
   const removePlayer = e => {
     players = players.filter(player => player.name !== e.detail);
   };
+  const triggerShowForm = () => (showForm = !showForm);
 </script>
 <main>
 	<Navbar />
-  <AddPlayer on:addplayer={addPlayer}/>
+  <div class="container">
+    <button class="btn btn-info" on:click={triggerShowForm}>Add player</button>
+    {#if showForm}
+      <AddPlayer on:addplayer={addPlayer}/>    
+    {/if}
+  </div>
 	<div class="container">
 		{#if players.length === 0}
 			<p>No Players</p>
