@@ -38,9 +38,9 @@
 				<button class="btn" on:click={addPoint}>+1</button>
 				<button class="btn btn-dark" on:click={removePoint}>-1</button>
 				<input type="number" bind:value={points}>
-				<input type="text" bind:value={name}>
+				<!-- <input type="text" bind:value={name}>
 				<button class="btn btn-primary" on:click={upudateDb}>Upload</button>
-				<button class="btn btn-danger" on:click={cancelUpdating}>Cancel</button>
+				<button class="btn btn-danger" on:click={cancelUpdating}>Cancel</button> -->
 			{/if}
 		</div>
 	</div>
